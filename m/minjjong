@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes">
+    <META NAME="ROBOTS" CONTENT="NOINDEX">
+
+    <meta property="og:url" content="https://barunsonmcard.com/m/minjjong" />
+    <meta property="og:title" content="이종훈♡김민경 결혼식에 초대합니다." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://barunsonmcard.com/upload/invitation/220916/214702/25353839-3ec2-4c47-bd70-23079720d564.jpg" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="533" />
+    <meta property="og:description" content="바른손카드 모바일청첩장" />
+    <meta property="fb:app_id" content="555274031340396" />
+
+    <title></title>
+
+    <link rel="stylesheet" href="/dist/css/photoswipe.css">
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"><!--Noto Sans-->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet"><!--나눔 고딕-->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet"><!--나눔 고딕 코딩-->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet"><!--나눔 명조-->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet"> <!--나눔 펜 스크립트-->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet"> <!--나눔 브러쉬 스크립트-->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> <!--Cinzel-->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-pen.css" rel="stylesheet">
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css" rel="stylesheet">
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-round.css" rel="stylesheet">
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/css/extra_font.css?v=DlxLvaXvfDXuUgQVCDtoQaJE2T7rZRbDAE-lyUMxDBI">
+    <link rel="stylesheet" type="text/css" href="/css/style.css?v=jNwFi_XXhP0EhVktdaaksR1QuDMzreJPRTv29JrxISQ">
+    <link rel="stylesheet" type="text/css" href="/css/loader.css?v=ndzdcCMZPNPDwL93d89bhgD4d6H5S6LcZLCUR_racps">
+    <link rel="stylesheet" href="/css/jquery.mCustomScrollbar.min.css?v=JHGEmB629pipTkMag9aMaw32I8zle24p3FpsEeI6oZU">
+
+    <style>
+        .templatearea {
+            width: 100%;
+            height: 0px;
+            /*border: 0px dotted #ddd;*/
+            /*box-shadow: 0px 0px 1px 0px;*/
+            position: relative;
+            letter-spacing: 0px;
+        }
+
+        .item {
+            display: flex;
+        }
+
+        .text {
+            width: 100%;
+        }
+
+        .area .map_wrap iframe {
+            width: 100% !important;
+            height: 150px !important;
+            box-sizing: border-box;
+        }
+
+        .photo {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column; /*수직 정렬*/
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mapImg {
+            width: 100% !important;
+            height: auto !important;
+        }
+
+        .map_title {
+            margin-right: 1% !important;
+        }
+
+        .iframe_wrap iframe {
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        #area11 {
+            height: 100%;
+        }
+
+        .etc_info {
+            margin: 20px 10px 20px 10px;
+        }
+
+        #area11 li {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.4em;
+        }
+
+        .guest_book .area {
+            padding-bottom: 10%;
+        }
+
+        .at_Groom_Parents1_Phone {
+            display: none;
+        }
+
+        .as_Groom_Parents1_Phone {
+            display: none;
+        }
+
+        .at_Groom_Parents2_Phone {
+            display: none;
+        }
+
+        .as_Groom_Parents2_Phone {
+            display: none;
+        }
+
+        .at_Bride_Parents1_Phone {
+            display: none;
+        }
+
+        .as_Bride_Parents1_Phone {
+            display: none;
+        }
+
+        .at_Bride_Parents2_Phone {
+            display: none;
+        }
+
+        .as_Bride_Parents2_Phone {
+            display: none;
+        }
+
+        .d_day {
+            display: none;
+        }
+
+        .dvfooter img {
+            width: 100%;
+        }
+
+
+        /** 계좌번호 신규추가 2021.10.14 **/
+        .scroll_off {
+            height: 100%;
+            min-height: 100%;
+            overflow: hidden !important;
+            touch-action: none;
+        }
+
+        /* 계좌번호보기 팝업 */
+        .account_pop {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 100;
+            text-align: center;
+        }
+
+            .account_pop:before {
+                content: "";
+                display: inline-block;
+                height: 100%;
+                vertical-align: middle;
+            }
+
+            .account_pop .layer_pop {
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                max-width: 450px;
+                width: 90%;
+                height: auto;
+                background: #fff;
+                z-index: 1000;
+                padding: 0 10px;
+                border: 1px solid #ebebeb;
+                box-sizing: border-box;
+                margin: auto;
+                text-align: left;
+            }
+
+                .account_pop .layer_pop .account_list {
+                    max-height: 480px;
+                    overflow-y: auto;
+                    padding: 24px 10px 0;
+                }
+
+                    .account_pop .layer_pop .account_list .mCSB_scrollTools {
+                        width: 4px;
+                    }
+
+                        .account_pop .layer_pop .account_list .mCSB_scrollTools .mCSB_draggerRail {
+                            background: #f1f1f1;
+                        }
+
+                        .account_pop .layer_pop .account_list .mCSB_scrollTools .mCSB_dragger_bar {
+                            background: #ccc;
+                        }
+
+                    .account_pop .layer_pop .account_list .mCSB_container {
+                        margin-right: 0;
+                    }
+
+                    .account_pop .layer_pop .account_list.add_scroll {
+                        padding: 24px 0 0 10px;
+                    }
+
+                        .account_pop .layer_pop .account_list.add_scroll .mCSB_container {
+                            margin-right: 16px;
+                        }
+
+                .account_pop .layer_pop dl {
+                    margin-bottom: 24px;
+                }
+
+                    .account_pop .layer_pop dl dt {
+                        position: relative;
+                        font-size: 16px !important;
+                        line-height: 24px;
+                        border-bottom: 1px solid #ebebeb;
+                        margin-bottom: 10px;
+                        padding-bottom: 10px;
+                        font-family: "Spoqa Han Sans Neo", sans-serif;
+                        color: #333;
+                    }
+
+                        .account_pop .layer_pop dl dt .copy_btn {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            width: 66px;
+                            height: 22px;
+                            line-height: 22px;
+                            background: #757575;
+                            font-size: 12px !important;
+                            color: #fff;
+                            text-align: center;
+                            border-radius: 20px;
+                            font-family: "Noto Sans Kr", sans-serif;
+                        }
+
+                    .account_pop .layer_pop dl dd {
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #757575;
+                        font-family: "Spoqa Han Sans Neo", sans-serif;
+                        font-weight: 300;
+                    }
+
+                        .account_pop .layer_pop dl dd span {
+                            color: inherit;
+                        }
+
+                .account_pop .layer_pop .btn_wrap {
+                    margin-top: 32px;
+                    padding: 0 10px 24px;
+                }
+
+                    .account_pop .layer_pop .btn_wrap .btn {
+                        height: 45px;
+                        line-height: 45px;
+                        background: #98a3f4;
+                        color: #fff;
+                        padding: 0;
+                        font-family: "Noto Sans Kr", sans-serif;
+                    }
+
+            .account_pop .pop_mask {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background: rgba(0,0,0,0.3);
+            }
+
+        /** toast style **/
+        #wrap .toast {
+            position: fixed;
+            right: 50%;
+            bottom: -10%;
+            transform: translateX(50%);
+            z-index: 100;
+        }
+
+            #wrap .toast p {
+                display: none;
+                font-size: 16px;
+                font-weight: 400;
+                color: #333;
+                background: #fff;
+                padding: 14px 20px;
+                box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.16);
+                border-radius: 10px;
+                font-family: 'Spoqa Han Sans Neo', sans-serif;
+            }
+        /** //계좌번호 신규추가 2021.10.14 **/
+
+        .remittance .btn_wrap:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .remittance .btn_wrap .remittance_btn.type03 {
+            width: 100%;
+            height: 46px;
+            line-height: 46px;
+            background-image: none;
+            color: #000;
+            margin: 0 auto;
+            text-indent: -18px;
+            overflow: hidden;
+        }
+
+            .remittance .btn_wrap .remittance_btn.type03 i {
+                position: relative;
+                top: -4px;
+                right: -30px;
+                display: inline-block;
+                width: 60px;
+                height: 65px;
+                background: url(/img/skin/kakaopay.jpg) no-repeat 0 0;
+                background-size: 40px;
+                vertical-align: top;
+                margin-right: 20px;
+            }
+
+        .remittance .btn_wrap .an_btn {
+            width: 100%;
+            height: 46px;
+            line-height: 46px;
+            background: #ebebeb;
+            color: #000;
+            margin: 10px auto 0;
+            text-indent: -14px;
+            font-size: 14px;
+        }
+
+            .remittance .btn_wrap .an_btn i {
+                display: inline-block;
+                width: 60px;
+                height: 26px;
+                vertical-align: middle;
+                margin-right: 0;
+                color: #000;
+                margin-top: -4px;
+            }
+
+            .remittance .btn_wrap .an_btn.groom i {
+                background: url(/img/skin/groom.png) no-repeat 24px #ebebeb;
+                background-size: 21px;
+            }
+
+            .remittance .btn_wrap .an_btn.bride i {
+                background: url(/img/skin/bride.png) no-repeat 24px #ebebeb;
+                background-size: 22px;
+            }
+
+            .remittance .btn_wrap .an_btn.account i {
+                width: 50px;
+                background: url(/img/skin/pay_icon.svg) no-repeat 8px #ebebeb;
+                background-size: 26px;
+                margin-right: 0;
+            }
+        /* 화환 선물하기 */
+        div.flowergift {
+            position: relative;
+            padding-bottom: 15%;
+        }
+
+            div.flowergift .btn_fla {
+                padding: 0 10%;
+            }
+
+            div.flowergift .btn {
+                position: relative;
+                height: 84px;
+                line-height: inherit;
+                color: #333;
+                background: #ffe5e0;
+                border-radius: 5px;
+                text-align: left;
+            }
+
+            div.flowergift .btn img {
+                position: absolute;
+                right: -15px;
+                bottom: 0;
+                width: 134px;
+            }
+
+            div.flowergift .btn .btn_text01 {
+                display: block;
+                line-height: 18px;
+                margin-left: 8%;
+                padding-top: 13px;
+                margin-bottom: 4px;
+            }
+
+            div.flowergift .btn .btn_text02 {
+                display: inline-block;
+                background: url(/img/order/c_flowers/flowers_arr.png) no-repeat 100%;
+                background-size: 7%;
+                padding-right: 12px;
+                margin-left: 8%;
+                font-weight: 500;
+            }
+
+        @media screen and (min-width:600px) {
+            div.flowergift .btn img {
+                right: 8%;
+            }
+        }
+    </style>
+
+    <style>
+        body {
+            width: 100%;
+        }
+
+        #wrap {
+            max-width: 800px;
+            margin: 0 auto;
+            min-width: 320px;
+            min-height: 100px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+
+        <div>
+            <!-- 표지 디자인 (메인 디자인) -->
+            <div id="area1" idx="1" class="templatearea"></div>
+            <!-- 초대글 (인사말) -->
+            <div id="area2" idx="2" class="templatearea"></div>
+            <!-- 신랑,신부 연락처 타이틀 이미지 -->
+            <div id="area3" idx="3" class="templatearea"></div>
+        </div>
+        <!-- //결혼합니다 -->
+        <!-- 신랑 & 신부 연락 -->
+        <div id="area4" idx="4" class="call">
+            <h2 class="sound">신랑 신부 연락정보</h2>
+            <dl class="husband">
+                <dt>
+                    <span class="blue">신랑에게 연락하기</span>
+                </dt>
+                <dd><a href="javascript:;" class="at_Groom_Phone"><img src="/img/skin/call_icon.png" width="32" alt="전화 아이콘" /></a></dd>
+                <dd><a href="javascript:;" class="as_Groom_Phone"><img src="/img/skin/sms_icon.png" width="36" alt="SMS 아이콘" /></a></dd>
+            </dl>
+            <dl class="wife">
+                <dt>
+                    <span class="blue">신부에게 연락하기</span>
+                </dt>
+                <dd><a href="javascript:;" class="at_Bride_Phone"><img src="/img/skin/call_icon.png" width="32" alt="전화 아이콘" /></a></dd>
+                <dd><a href="javascript:;" class="as_Bride_Phone"><img src="/img/skin/sms_icon.png" width="36" alt="SMS 아이콘" /></a></dd>
+            </dl>
+            <section class="onoff_2">
+                <div class="list_wrap">
+                    <a href="javascript:;" class="info_detail">정보 더보기</a>
+                    <ul>
+                        <li>
+                            <h3>신랑측 혼주</h3>
+                            <div class="list_con">
+                                <p>
+                                    <span class="i_Groom_Parents1_Title">
+아버지                                    </span>
+                                    <span class="i_Groom_Parents1_Name"></span>
+                                </p>
+                                <div class="btn_wrap">
+                                    <a href="javascript:;" class="at_Groom_Parents1_Phone"><img src="/img/skin/call_icon.png" width="25" alt="전화 아이콘"></a>
+                                    <a href="javascript:;" class="as_Groom_Parents1_Phone"><img src="/img/skin/sms_icon.png" width="29" alt="SMS 아이콘"></a>
+                                </div>
+                            </div>
+                            <div class="list_con">
+                                <p>
+                                    <span class="i_Groom_Parents2_Title">
+어머니                                    </span>
+                                    <span class="i_Groom_Parents2_Name"></span>
+                                </p>
+                                <div class="btn_wrap">
+                                    <a href="javascript:;" class="at_Groom_Parents2_Phone"><img src="/img/skin/call_icon.png" width="25" alt="전화 아이콘"></a>
+                                    <a href="javascript:;" class="as_Groom_Parents2_Phone"><img src="/img/skin/sms_icon.png" width="29" alt="SMS 아이콘"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>신부측 혼주</h3>
+                            <div class="list_con">
+                                <p>
+                                    <span class="i_Bride_Parents1_Title">
+아버지                                    </span>
+                                    <span class="i_Bride_Parents1_Name"></span>
+                                </p>
+                                <div class="btn_wrap">
+                                    <a href="javascript:;" class="at_Bride_Parents1_Phone"><img src="/img/skin/call_icon.png" width="25" alt="전화 아이콘"></a>
+                                    <a href="javascript:;" class="as_Bride_Parents1_Phone"><img src="/img/skin/sms_icon.png" width="29" alt="SMS 아이콘"></a>
+                                </div>
+                            </div>
+                            <div class="list_con">
+                                <p>
+                                    <span class="i_Bride_Parents2_Title">
+어머니                                    </span>
+                                    <span class="i_Bride_Parents2_Name"></span>
+                                </p>
+                                <div class="btn_wrap">
+                                    <a href="javascript:;" class="at_Bride_Parents2_Phone"><img src="/img/skin/call_icon.png" width="25" alt="전화 아이콘"></a>
+                                    <a href="javascript:;" class="as_Bride_Parents2_Phone"><img src="/img/skin/sms_icon.png" width="29" alt="SMS 아이콘"></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- //신랑 & 신부 연락 -->
+
+       <section class="onoff_5">
+            <!-- 갤러리 타이틀 이미지 -->
+            <div id="area5" idx="5" class="templatearea"></div>
+            <!-- 갤러리 -->
+            <div id="area6" idx="6">
+                <section class="gallery line" id="gallery">
+                    <div class="area">
+                            <!-- 갤러리 타입01 / 바둑판 썸네일 확대 -->
+                            <div class="gallery_type01">
+                                <div class="skin_gallery">
+                                        <figure><a href="https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/d1e4047f-0e65-44dd-92c1-fda025b88c46.jpg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/d1e4047f-0e65-44dd-92c1-fda025b88c46.jpg ) no-repeat center center" itemprop="contentUrl" data-size="800x1200" class="setimgsize"><img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt=""></a> </figure>
+                                        <figure><a href="https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/c1ce5d8d-76d5-4091-a5e5-3c8ec9f99b67.jpg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/c1ce5d8d-76d5-4091-a5e5-3c8ec9f99b67.jpg ) no-repeat center center" itemprop="contentUrl" data-size="800x1200" class="setimgsize"><img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt=""></a> </figure>
+                                        <figure><a href="https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/e98690ba-7867-4ff7-8b0a-9e5cedf1de5a.jpg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/e98690ba-7867-4ff7-8b0a-9e5cedf1de5a.jpg ) no-repeat center center" itemprop="contentUrl" data-size="800x1200" class="setimgsize"><img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt=""></a> </figure>
+                                        <figure><a href="https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/a5394705-5ece-4920-8bbc-12d17d5ef51f.jpg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/a5394705-5ece-4920-8bbc-12d17d5ef51f.jpg ) no-repeat center center" itemprop="contentUrl" data-size="800x1200" class="setimgsize"><img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt=""></a> </figure>
+                                        <figure><a href="https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/3ff8d5ca-68ea-4ecc-9a84-f7137627898f.jpg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/3ff8d5ca-68ea-4ecc-9a84-f7137627898f.jpg ) no-repeat center center" itemprop="contentUrl" data-size="800x1200" class="setimgsize"><img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt=""></a> </figure>
+                                        <figure><a href="https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/2a76c314-08ae-4cb1-80bc-142821a9499f.jpg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/2a76c314-08ae-4cb1-80bc-142821a9499f.jpg ) no-repeat center center" itemprop="contentUrl" data-size="800x1200" class="setimgsize"><img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt=""></a> </figure>
+                                        <figure><a href="https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/014990a7-f6cf-47a5-86cb-b24217dc307c.jpg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/014990a7-f6cf-47a5-86cb-b24217dc307c.jpg ) no-repeat center center" itemprop="contentUrl" data-size="800x1200" class="setimgsize"><img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt=""></a> </figure>
+                                        <figure><a href="https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/2c83570e-c5d4-468c-814d-b8b7269a54ba.jpg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/2c83570e-c5d4-468c-814d-b8b7269a54ba.jpg ) no-repeat center center" itemprop="contentUrl" data-size="800x1200" class="setimgsize"><img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt=""></a> </figure>
+                                        <figure><a href="https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/30d2ea6e-2acc-4013-b707-7b78d1c54ba0.jpg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/30d2ea6e-2acc-4013-b707-7b78d1c54ba0.jpg ) no-repeat center center" itemprop="contentUrl" data-size="800x533.3333" class="setimgsize"><img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt=""></a> </figure>
+                                        <figure><a href="https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/7e80ed56-2eab-4317-a2d8-c58ebba08d40.jpg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/7e80ed56-2eab-4317-a2d8-c58ebba08d40.jpg ) no-repeat center center" itemprop="contentUrl" data-size="800x1200" class="setimgsize"><img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt=""></a> </figure>
+                                        <figure><a href="https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/a79da5bb-a8e7-473f-a1d9-31f5bf2806a7.jpg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/a79da5bb-a8e7-473f-a1d9-31f5bf2806a7.jpg ) no-repeat center center" itemprop="contentUrl" data-size="800x1200" class="setimgsize"><img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt=""></a> </figure>
+                                        <figure><a href="https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/1abcbf97-eb2d-412e-adea-2e875af7b30f.jpg" style="background: url(https://resources.barunsonmcard.com/upload/invitation/220916/214702/gallery/1abcbf97-eb2d-412e-adea-2e875af7b30f.jpg ) no-repeat center center" itemprop="contentUrl" data-size="800x477.8761" class="setimgsize"><img src="/img/skin/img_frame.png" class="img_frame" itemprop="thumbnail" alt=""></a> </figure>
+                                </div>
+                                <!-- 갤러리 확대 -->
+                                <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="pswp__bg"></div>
+                                    <div class="pswp__scroll-wrap">
+                                        <div class="pswp__container">
+                                            <div class="pswp__item"></div>
+                                            <div class="pswp__item"></div>
+                                            <div class="pswp__item"></div>
+                                        </div>
+                                        <div class="pswp__ui pswp__ui--hidden">
+                                            <div class="pswp__top-bar">
+                                                <div class="pswp__counter"></div>
+                                                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                                                <!--
+                                            <button class="pswp__button pswp__button--share" title="Share"></button>
+                                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                                            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                                            -->
+                                                <div class="pswp__preloader">
+                                                    <div class="pswp__preloader__icn">
+                                                        <div class="pswp__preloader__cut">
+                                                            <div class="pswp__preloader__donut"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                                                <div class="pswp__share-tooltip"></div>
+                                            </div>
+                                            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"> </button>
+                                            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"> </button>
+                                            <div class="pswp__caption">
+                                                <div class="pswp__caption__center"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- / 갤러리 확대 -->
+                            </div>
+                            <!-- //갤러리 타입01 / 바둑판 썸네일 확대 -->
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="onoff_6">
+            <!-- 동영상 타이틀 이미지 -->
+            <div id="area7" idx="7" class="templatearea"></div>
+            <!-- 동영상 -->
+            <div id="area8" idx="8" class="movie line">
+                <div class="area">
+                    <div class="iframe_wrap">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 오시는길 타이틀 이미지 -->
+        <div id="area9" idx="9" class="templatearea"></div>
+        <!-- 오시는 길 -->
+        <div id="area10" idx="10" class="location line">
+            <div class="area">
+                <div class="map_wrap">
+                </div>
+                    <div class="btn_wrap">
+                        <a href="javascript:;" class="map_btn">지도 바로가기</a>
+                    </div>
+                <div class="map_info">
+                    <dl class="map_title" style="padding-right:1%;">
+                        <dt style="line-height:1.6em;"><span class="i_Weddinghall_Name" style="margin-right:4px;">루클라비</span><span span class="i_WeddingHallDetail">10층 라비에벨 홀</span></dt>
+                        <dd id="addressDetail">경기 수원시 권선구 경수대로 401</dd>
+                        <dd>031-223-5595</dd>
+                    </dl>
+                    <a href="tel:031-223-5595" class="call_btn">
+                        <img src="/img/skin/call_icon.png" alt="예식장 전화하기" width="20" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- //오시는 길 -->
+        <!-- 기타정보 -->
+        <section class="onoff_3">
+            <div id="area11" idx="11" class="templatearea">
+                <div class="etc_info">
+                    <ul>
+                        <li>
+                            <strong id="etc_title_1"></strong>
+                            <span id="etc_contents_1"></span>
+                        </li>
+                        <li>
+                            <strong id="etc_title_2"></strong>
+                            <span id="etc_contents_2"></span>
+                        </li>
+                        <li>
+                            <strong id="etc_title_3"></strong>
+                            <span id="etc_contents_3"></span>
+                        </li>
+                        <li>
+                            <strong id="etc_title_4"></strong>
+                            <span id="etc_contents_4"></span>
+                        </li>
+                        <li>
+                            <strong id="etc_title_5"></strong>
+                            <span id="etc_contents_5"></span>
+                        </li>
+                        <li>
+                            <strong id="etc_title_6"></strong>
+                            <span id="etc_contents_6"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 화환 선물 -->
+        <div class="flowergift onoff_8">
+            <div class="templatearea">
+                <div class="item" style="top: 0px; left: 0px;  position:absolute;">
+                    <img class="img" src="/img/title/tit_remittance_fla.png" />
+                </div>
+            </div>
+            <div class="btn_fla">
+                <a href="https://www.barunsonflower.com/?barunid=214869" target="_blank" class="btn an_btn type03 flowergift">
+                    <span class="btn_text01" style="font-size:12px">신랑, 신부님께 <br /> 축하의 마음을 전해보세요</span>
+                    <strong class="btn_text02" style="font-size: 13.2px;">화환 선물하기</strong>
+                    <img src="/img/order/c_flowers/flowers_img_v2.png" alt="화환 이미지">
+                </a>
+            </div>
+        </div>
+        <!-- 화환 선물 -->
+
+        <!-- 신랑 & 신부에게 마음 전하기 -->
+        <div class="remittance onoff_4">
+            <div id="area12" idx="12" class="templatearea"></div>
+            <div id="area13" idx="13" class="btn_wrap">
+                <a href="javascript:;" class="btn remittance_btn type03"><i class="ico kakaopay_icon"></i>축의금 송금하기</a>
+                <a href="javascript:;" class="btn an_btn type03 groom"><i class="ico pay_icon"></i> 신랑측 계좌번호</a>
+                <a href="javascript:;" class="btn an_btn type03 bride"><i class="ico pay_icon"></i> 신부측 계좌번호</a>
+                <a href="javascript:;" class="btn an_btn type03 account"><i class="ico"></i> 계좌번호 보기</a>
+            </div>
+        </div>
+
+        <!-- 계좌번호 팝업 -->
+        <div class="account_pop account">
+            <div class="layer_pop">
+                <div class="account_list account mCustomScrollbar"></div>
+                <div class="btn_wrap type01">
+                    <a href="javascript:accClose();" class="btn">닫기</a>
+                </div>
+                <!-- 복사하기 안내문구 -->
+                <div class="toast all"></div>
+            </div>
+            <div class="pop_mask"></div>
+        </div>
+        <!-- //계좌번호 팝업 -->
+        <!-- 신랑계좌번호 팝업 -->
+        <div class="account_pop groom">
+            <div class="layer_pop">
+                <div class="account_list groom"></div>
+                <div class="btn_wrap type01">
+                    <a href="javascript:accClose();" class="btn">닫기</a>
+                </div>
+                <!-- 복사하기 안내문구 -->
+                <div class="toast groom"></div>
+            </div>
+            <div class="pop_mask"></div>
+        </div>
+        <!-- //계좌번호 팝업 -->
+        <!-- 신부계좌번호 팝업 -->
+        <div class="account_pop bride">
+            <div class="layer_pop">
+                <div class="account_list bride"></div>
+                <div class="btn_wrap type01">
+                    <a href="javascript:accClose();" class="btn">닫기</a>
+                </div>
+                <!-- 복사하기 안내문구 -->
+                <div class="toast bride"></div>
+            </div>
+            <div class="pop_mask"></div>
+        </div>
+        <!-- //계좌번호 팝업 -->
+        <!-- //신랑 & 신부에게 마음 전하기 -->
+        <!-- 방명록 타이틀 이미지 -->
+        <section class="onoff_1">
+            <div id="area14" idx="14" class="templatearea"></div>
+            <!-- 방명록 -->
+            <div id="area15" idx="15" class="guest_book line">
+                <div class="area">
+                    <form id="frmGuestbook">
+                        <div class="write_box">
+                            <dl>
+                                <dt>Name</dt>
+                                <dd><input type="text" id="Name" name="Name" data-name="이름" maxlength="20"></dd>
+                            </dl>
+                            <dl>
+                                <dt>Password</dt>
+                                <dd><input type="password" id="Password" name="Password" data-name="비밀번호" maxlength="20"></dd>
+                            </dl>
+                            <dl>
+                                <dt>Message</dt>
+                                <dd><input type="text" id="Message" name="Message" data-name="메세지" maxlength="200"></dd>
+                            </dl>
+                        </div>
+                        <div class="btn_wrap">
+                            <a href="javascript:;" class="btn btn_save_guestbook guest_btn">축하메시지 남기기</a>
+                        </div>
+                    </form>
+                    <!-- 방명록 글 리스트 -->
+                    <div class="message_wrap">
+                        <ul id="guestbook">
+                        </ul>
+                        <div class="btn_wrap">
+                            <a href="javascript:;" class="btn btn_guestbook_more">더보기</a>
+                            <a href="javascript:;" class="btn btn_guestbook_all">전체보기</a>
+                        </div>
+                    </div>
+                    <!-- //방명록 글 리스트 -->
+                </div>
+            </div>
+        </section>
+        <!-- //방명록 -->
+        <!-- footer -->
+        <footer class="footer">
+            <input type="hidden" id="url" value="https://barunsonmcard.com/m/minjjong" />
+            <ul class="sns_list">
+                <li><a href="javascript:;" class="btn_share" data-type="facebook"><img src="/img/skin/facebook_icon.png" width="12" alt="페이스북"></a></li>
+                <li><a href="javascript:;" id="kakao-link-btn"><img src="/img/skin/kakao_icon.png" width="40" alt="카카오톡"></a></li>
+                <li><a href="javascript:;" class="btn_share copy_url" data-type="copy" data-cllpboard-target="url"><img src="/img/skin/linkcopy_icon.png" width="30" alt="링크복사"></a></li>
+            </ul>
+            <div class="dvfooter">
+                <a href="https://www.barunsonmcard.com" target="_blank">
+                    <img src="/img/preview/barunson.png">
+                </a>
+            </div>
+        </footer>
+        <!-- //footer -->
+
+        <div style="display:none" id="Objects">[{&quot;item_id&quot;:2973034,&quot;resource_id&quot;:2974459,&quot;pid&quot;:&quot;area1&quot;,&quot;id&quot;:&quot;item_1&quot;,&quot;type&quot;:&quot;img&quot;,&quot;top&quot;:0.0,&quot;left&quot;:0.0,&quot;height&quot;:1423.0,&quot;width&quot;:800.0,&quot;chracterset&quot;:null,&quot;fontsize&quot;:0.0,&quot;fontcolor&quot;:&quot;#000000&quot;,&quot;bgcolor&quot;:null,&quot;bold_yn&quot;:false,&quot;italic_yn&quot;:false,&quot;underline_yn&quot;:false,&quot;between_text&quot;:0.0,&quot;between_line&quot;:1.4,&quot;vertical_align&quot;:null,&quot;horizontal_align&quot;:null,&quot;zindex&quot;:1,&quot;font&quot;:&quot;&#x27;Noto Sans KR&#x27;, sans-serif&quot;,&quot;resource_url&quot;:&quot;/upload/invitation/220916/214702/4621fb0f-ec35-433a-8d07-171d7f8164e3.png&quot;,&quot;org_height&quot;:1423.0,&quot;org_width&quot;:800.0},{&quot;item_id&quot;:2973038,&quot;resource_id&quot;:2974463,&quot;pid&quot;:&quot;area1&quot;,&quot;id&quot;:&quot;item_2&quot;,&quot;type&quot;:&quot;photo&quot;,&quot;top&quot;:509.0,&quot;left&quot;:0.0,&quot;height&quot;:580.891,&quot;width&quot;:800.0,&quot;chracterset&quot;:null,&quot;fontsize&quot;:0.0,&quot;fontcolor&quot;:&quot;#000000&quot;,&quot;bgcolor&quot;:null,&quot;bold_yn&quot;:false,&quot;italic_yn&quot;:false,&quot;underline_yn&quot;:false,&quot;between_text&quot;:0.0,&quot;between_line&quot;:1.4,&quot;vertical_align&quot;:null,&quot;horizontal_align&quot;:null,&quot;zindex&quot;:2,&quot;font&quot;:&quot;&#x27;Noto Sans KR&#x27;, sans-serif&quot;,&quot;resource_url&quot;:&quot;/upload/invitation/220916/214702/16827eff-18a9-4c9a-9cdf-46f301b8c431.png&quot;,&quot;org_height&quot;:1350.0,&quot;org_width&quot;:1895.0},{&quot;item_id&quot;:2973035,&quot;resource_id&quot;:2974460,&quot;pid&quot;:&quot;area1&quot;,&quot;id&quot;:&quot;item_3&quot;,&quot;type&quot;:&quot;img&quot;,&quot;top&quot;:226.0,&quot;left&quot;:395.0,&quot;height&quot;:103.938,&quot;width&quot;:339.5,&quot;chracterset&quot;:null,&quot;fontsize&quot;:0.0,&quot;fontcolor&quot;:&quot;#000000&quot;,&quot;bgcolor&quot;:null,&quot;bold_yn&quot;:false,&quot;italic_yn&quot;:false,&quot;underline_yn&quot;:false,&quot;between_text&quot;:0.0,&quot;between_line&quot;:1.4,&quot;vertical_align&quot;:null,&quot;horizontal_align&quot;:null,&quot;zindex&quot;:3,&quot;font&quot;:&quot;&#x27;Noto Sans KR&#x27;, sans-serif&quot;,&quot;resource_url&quot;:&quot;/upload/invitation/220916/214702/6505a5dd-e27e-41a9-8559-d10bcd39bce4.png&quot;,&quot;org_height&quot;:252.0,&quot;org_width&quot;:823.0},{&quot;item_id&quot;:2973036,&quot;resource_id&quot;:2974461,&quot;pid&quot;:&quot;area1&quot;,&quot;id&quot;:&quot;item_4&quot;,&quot;type&quot;:&quot;txt&quot;,&quot;top&quot;:164.0,&quot;left&quot;:0.0,&quot;height&quot;:82.0,&quot;width&quot;:707.047,&quot;chracterset&quot;:&quot;#신랑명#&quot;,&quot;fontsize&quot;:55.0,&quot;fontcolor&quot;:&quot;#4D1F03&quot;,&quot;bgcolor&quot;:null,&quot;bold_yn&quot;:false,&quot;italic_yn&quot;:false,&quot;underline_yn&quot;:false,&quot;between_text&quot;:25.0,&quot;between_line&quot;:1.4,&quot;vertical_align&quot;:&quot;M&quot;,&quot;horizontal_align&quot;:&quot;R&quot;,&quot;zindex&quot;:4,&quot;font&quot;:&quot;&#x27;Nanum Myeongjo&#x27;, serif&quot;,&quot;resource_url&quot;:&quot;&quot;,&quot;org_height&quot;:24.0,&quot;org_width&quot;:44.1719},{&quot;item_id&quot;:2973037,&quot;resource_id&quot;:2974462,&quot;pid&quot;:&quot;area1&quot;,&quot;id&quot;:&quot;item_5&quot;,&quot;type&quot;:&quot;txt&quot;,&quot;top&quot;:336.0,&quot;left&quot;:0.0,&quot;height&quot;:82.0,&quot;width&quot;:707.0,&quot;chracterset&quot;:&quot;#신부명#&quot;,&quot;fontsize&quot;:55.0,&quot;fontcolor&quot;:&quot;#4D1F03&quot;,&quot;bgcolor&quot;:null,&quot;bold_yn&quot;:false,&quot;italic_yn&quot;:false,&quot;underline_yn&quot;:false,&quot;between_text&quot;:25.0,&quot;between_line&quot;:1.4,&quot;vertical_align&quot;:&quot;M&quot;,&quot;horizontal_align&quot;:&quot;R&quot;,&quot;zindex&quot;:5,&quot;font&quot;:&quot;&#x27;Nanum Myeongjo&#x27;, serif&quot;,&quot;resource_url&quot;:&quot;&quot;,&quot;org_height&quot;:24.0,&quot;org_width&quot;:44.1719},{&quot;item_id&quot;:2973039,&quot;resource_id&quot;:2974464,&quot;pid&quot;:&quot;area1&quot;,&quot;id&quot;:&quot;item_6&quot;,&quot;type&quot;:&quot;txt&quot;,&quot;top&quot;:1159.0,&quot;left&quot;:101.515625,&quot;height&quot;:49.0,&quot;width&quot;:694.672,&quot;chracterset&quot;:&quot;#예식년#. #예식월#. #예식일#. #예식요일# #시간구분# #예식시#:#예식분#&quot;,&quot;fontsize&quot;:35.0,&quot;fontcolor&quot;:&quot;#4D1F03&quot;,&quot;bgcolor&quot;:null,&quot;bold_yn&quot;:false,&quot;italic_yn&quot;:false,&quot;underline_yn&quot;:false,&quot;between_text&quot;:0.0,&quot;between_line&quot;:1.4,&quot;vertical_align&quot;:&quot;M&quot;,&quot;horizontal_align&quot;:&quot;L&quot;,&quot;zindex&quot;:6,&quot;font&quot;:&quot;&#x27;Cinzel&#x27;, serif&quot;,&quot;resource_url&quot;:&quot;&quot;,&quot;org_height&quot;:24.0,&quot;org_width&quot;:35.5312},{&quot;item_id&quot;:2973040,&quot;resource_id&quot;:2974465,&quot;pid&quot;:&quot;area1&quot;,&quot;id&quot;:&quot;item_7&quot;,&quot;type&quot;:&quot;txt&quot;,&quot;top&quot;:1217.0,&quot;left&quot;:103.515625,&quot;height&quot;:52.0,&quot;width&quot;:694.797,&quot;chracterset&quot;:&quot;#예식장이름# #예식홀#&quot;,&quot;fontsize&quot;:35.0,&quot;fontcolor&quot;:&quot;#4D1F03&quot;,&quot;bgcolor&quot;:null,&quot;bold_yn&quot;:false,&quot;italic_yn&quot;:false,&quot;underline_yn&quot;:false,&quot;between_text&quot;:0.0,&quot;between_line&quot;:1.4,&quot;vertical_align&quot;:&quot;M&quot;,&quot;horizontal_align&quot;:&quot;L&quot;,&quot;zindex&quot;:7,&quot;font&quot;:&quot;&#x27;Nanum Myeongjo&#x27;, serif&quot;,&quot;resource_url&quot;:&quot;&quot;,&quot;org_height&quot;:24.0,&quot;org_width&quot;:112.0},{&quot;item_id&quot;:2973041,&quot;resource_id&quot;:2974466,&quot;pid&quot;:&quot;area2&quot;,&quot;id&quot;:&quot;item_8&quot;,&quot;type&quot;:&quot;img&quot;,&quot;top&quot;:0.0,&quot;left&quot;:0.0,&quot;height&quot;:296.0,&quot;width&quot;:800.0,&quot;chracterset&quot;:null,&quot;fontsize&quot;:0.0,&quot;fontcolor&quot;:&quot;#000000&quot;,&quot;bgcolor&quot;:null,&quot;bold_yn&quot;:false,&quot;italic_yn&quot;:false,&quot;underline_yn&quot;:false,&quot;between_text&quot;:0.0,&quot;between_line&quot;:1.4,&quot;vertical_align&quot;:null,&quot;horizontal_align&quot;:null,&quot;zindex&quot;:8,&quot;font&quot;:&quot;&#x27;Noto Sans KR&#x27;, sans-serif&quot;,&quot;resource_url&quot;:&quot;/upload/invitation/220916/214702/0c5736c5-dd20-4729-8535-65fa11c22cd1.png&quot;,&quot;org_height&quot;:296.0,&quot;org_width&quot;:800.0},{&quot;item_id&quot;:2973042,&quot;resource_id&quot;:2974467,&quot;pid&quot;:&quot;area2&quot;,&quot;id&quot;:&quot;item_9&quot;,&quot;type&quot;:&quot;txt&quot;,&quot;top&quot;:325.0,&quot;left&quot;:0.0,&quot;height&quot;:595.0,&quot;width&quot;:800.0,&quot;chracterset&quot;:&quot;#인사말#&quot;,&quot;fontsize&quot;:34.0,&quot;fontcolor&quot;:&quot;#333333&quot;,&quot;bgcolor&quot;:null,&quot;bold_yn&quot;:false,&quot;italic_yn&quot;:false,&quot;underline_yn&quot;:false,&quot;between_text&quot;:0.0,&quot;between_line&quot;:2.3,&quot;vertical_align&quot;:&quot;T&quot;,&quot;horizontal_align&quot;:&quot;C&quot;,&quot;zindex&quot;:9,&quot;font&quot;:&quot;&#x27;Nanum Myeongjo&#x27;, serif&quot;,&quot;resource_url&quot;:&quot;&quot;,&quot;org_height&quot;:144.0,&quot;org_width&quot;:297.594},{&quot;item_id&quot;:2973043,&quot;resource_id&quot;:2974468,&quot;pid&quot;:&quot;area5&quot;,&quot;id&quot;:&quot;item_10&quot;,&quot;type&quot;:&quot;img&quot;,&quot;top&quot;:0.0,&quot;left&quot;:0.0,&quot;height&quot;:183.0,&quot;width&quot;:800.0,&quot;chracterset&quot;:null,&quot;fontsize&quot;:0.0,&quot;fontcolor&quot;:&quot;#000000&quot;,&quot;bgcolor&quot;:null,&quot;bold_yn&quot;:false,&quot;italic_yn&quot;:false,&quot;underline_yn&quot;:false,&quot;between_text&quot;:0.0,&quot;between_line&quot;:1.4,&quot;vertical_align&quot;:null,&quot;horizontal_align&quot;:null,&quot;zindex&quot;:10,&quot;font&quot;:&quot;&#x27;Noto Sans KR&#x27;, sans-serif&quot;,&quot;resource_url&quot;:&quot;/upload/invitation/220916/214702/503f247d-af31-4902-9eac-c9821c12b1c9.png&quot;,&quot;org_height&quot;:183.0,&quot;org_width&quot;:800.0},{&quot;item_id&quot;:2973044,&quot;resource_id&quot;:2974469,&quot;pid&quot;:&quot;area7&quot;,&quot;id&quot;:&quot;item_11&quot;,&quot;type&quot;:&quot;img&quot;,&quot;top&quot;:0.0,&quot;left&quot;:0.0,&quot;height&quot;:183.0,&quot;width&quot;:800.0,&quot;chracterset&quot;:null,&quot;fontsize&quot;:0.0,&quot;fontcolor&quot;:&quot;#000000&quot;,&quot;bgcolor&quot;:null,&quot;bold_yn&quot;:false,&quot;italic_yn&quot;:false,&quot;underline_yn&quot;:false,&quot;between_text&quot;:0.0,&quot;between_line&quot;:1.4,&quot;vertical_align&quot;:null,&quot;horizontal_align&quot;:null,&quot;zindex&quot;:11,&quot;font&quot;:&quot;&#x27;Noto Sans KR&#x27;, sans-serif&quot;,&quot;resource_url&quot;:&quot;/upload/invitation/220916/214702/783faa44-ee1f-4533-8211-a26bd27891d4.png&quot;,&quot;org_height&quot;:183.0,&quot;org_width&quot;:800.0},{&quot;item_id&quot;:2973045,&quot;resource_id&quot;:2974470,&quot;pid&quot;:&quot;area9&quot;,&quot;id&quot;:&quot;item_12&quot;,&quot;type&quot;:&quot;img&quot;,&quot;top&quot;:0.0,&quot;left&quot;:0.0,&quot;height&quot;:182.0,&quot;width&quot;:800.0,&quot;chracterset&quot;:null,&quot;fontsize&quot;:0.0,&quot;fontcolor&quot;:&quot;#000000&quot;,&quot;bgcolor&quot;:null,&quot;bold_yn&quot;:false,&quot;italic_yn&quot;:false,&quot;underline_yn&quot;:false,&quot;between_text&quot;:0.0,&quot;between_line&quot;:1.4,&quot;vertical_align&quot;:null,&quot;horizontal_align&quot;:null,&quot;zindex&quot;:12,&quot;font&quot;:&quot;&#x27;Noto Sans KR&#x27;, sans-serif&quot;,&quot;resource_url&quot;:&quot;/upload/invitation/220916/214702/00d78256-b62c-46ec-b858-1bb6ba3dd9ff.png&quot;,&quot;org_height&quot;:182.0,&quot;org_width&quot;:800.0},{&quot;item_id&quot;:2973047,&quot;resource_id&quot;:2974472,&quot;pid&quot;:&quot;area12&quot;,&quot;id&quot;:&quot;item_13&quot;,&quot;type&quot;:&quot;img&quot;,&quot;top&quot;:0.0,&quot;left&quot;:0.0,&quot;height&quot;:223.0,&quot;width&quot;:800.0,&quot;chracterset&quot;:null,&quot;fontsize&quot;:0.0,&quot;fontcolor&quot;:&quot;#000000&quot;,&quot;bgcolor&quot;:null,&quot;bold_yn&quot;:false,&quot;italic_yn&quot;:false,&quot;underline_yn&quot;:false,&quot;between_text&quot;:0.0,&quot;between_line&quot;:1.4,&quot;vertical_align&quot;:null,&quot;horizontal_align&quot;:null,&quot;zindex&quot;:13,&quot;font&quot;:&quot;&#x27;Noto Sans KR&#x27;, sans-serif&quot;,&quot;resource_url&quot;:&quot;/upload/invitation/220916/214702/918add6d-e930-4b89-ae12-867a7a50c590.png&quot;,&quot;org_height&quot;:223.0,&quot;org_width&quot;:800.0},{&quot;item_id&quot;:2973046,&quot;resource_id&quot;:2974471,&quot;pid&quot;:&quot;area14&quot;,&quot;id&quot;:&quot;item_14&quot;,&quot;type&quot;:&quot;img&quot;,&quot;top&quot;:0.0,&quot;left&quot;:0.0,&quot;height&quot;:230.0,&quot;width&quot;:800.0,&quot;chracterset&quot;:null,&quot;fontsize&quot;:0.0,&quot;fontcolor&quot;:&quot;#000000&quot;,&quot;bgcolor&quot;:null,&quot;bold_yn&quot;:false,&quot;italic_yn&quot;:false,&quot;underline_yn&quot;:false,&quot;between_text&quot;:0.0,&quot;between_line&quot;:1.4,&quot;vertical_align&quot;:null,&quot;horizontal_align&quot;:null,&quot;zindex&quot;:14,&quot;font&quot;:&quot;&#x27;Noto Sans KR&#x27;, sans-serif&quot;,&quot;resource_url&quot;:&quot;/upload/invitation/220916/214702/5d566688-50e5-4642-b84e-56c4b2063ca3.png&quot;,&quot;org_height&quot;:230.0,&quot;org_width&quot;:800.0}]</div>
+        <div style="display:none" id="TB_Area">[{&quot;Invitation_ID&quot;:214702,&quot;Area_ID&quot;:1,&quot;Sort&quot;:1,&quot;Size_Height&quot;:1423.0,&quot;Size_Width&quot;:800.0,&quot;Regist_User_ID&quot;:null,&quot;Regist_DateTime&quot;:null,&quot;Regist_IP&quot;:null,&quot;Update_User_ID&quot;:null,&quot;Update_DateTime&quot;:null,&quot;Update_IP&quot;:null,&quot;Color&quot;:null,&quot;Area&quot;:null,&quot;Invitation&quot;:null},{&quot;Invitation_ID&quot;:214702,&quot;Area_ID&quot;:2,&quot;Sort&quot;:2,&quot;Size_Height&quot;:922.0,&quot;Size_Width&quot;:800.0,&quot;Regist_User_ID&quot;:null,&quot;Regist_DateTime&quot;:null,&quot;Regist_IP&quot;:null,&quot;Update_User_ID&quot;:null,&quot;Update_DateTime&quot;:null,&quot;Update_IP&quot;:null,&quot;Color&quot;:null,&quot;Area&quot;:null,&quot;Invitation&quot;:null},{&quot;Invitation_ID&quot;:214702,&quot;Area_ID&quot;:3,&quot;Sort&quot;:3,&quot;Size_Height&quot;:100.0,&quot;Size_Width&quot;:800.0,&quot;Regist_User_ID&quot;:null,&quot;Regist_DateTime&quot;:null,&quot;Regist_IP&quot;:null,&quot;Update_User_ID&quot;:null,&quot;Update_DateTime&quot;:null,&quot;Update_IP&quot;:null,&quot;Color&quot;:null,&quot;Area&quot;:null,&quot;Invitation&quot;:null},{&quot;Invitation_ID&quot;:214702,&quot;Area_ID&quot;:5,&quot;Sort&quot;:5,&quot;Size_Height&quot;:183.0,&quot;Size_Width&quot;:800.0,&quot;Regist_User_ID&quot;:null,&quot;Regist_DateTime&quot;:null,&quot;Regist_IP&quot;:null,&quot;Update_User_ID&quot;:null,&quot;Update_DateTime&quot;:null,&quot;Update_IP&quot;:null,&quot;Color&quot;:null,&quot;Area&quot;:null,&quot;Invitation&quot;:null},{&quot;Invitation_ID&quot;:214702,&quot;Area_ID&quot;:7,&quot;Sort&quot;:7,&quot;Size_Height&quot;:183.0,&quot;Size_Width&quot;:800.0,&quot;Regist_User_ID&quot;:null,&quot;Regist_DateTime&quot;:null,&quot;Regist_IP&quot;:null,&quot;Update_User_ID&quot;:null,&quot;Update_DateTime&quot;:null,&quot;Update_IP&quot;:null,&quot;Color&quot;:null,&quot;Area&quot;:null,&quot;Invitation&quot;:null},{&quot;Invitation_ID&quot;:214702,&quot;Area_ID&quot;:9,&quot;Sort&quot;:9,&quot;Size_Height&quot;:182.0,&quot;Size_Width&quot;:800.0,&quot;Regist_User_ID&quot;:null,&quot;Regist_DateTime&quot;:null,&quot;Regist_IP&quot;:null,&quot;Update_User_ID&quot;:null,&quot;Update_DateTime&quot;:null,&quot;Update_IP&quot;:null,&quot;Color&quot;:null,&quot;Area&quot;:null,&quot;Invitation&quot;:null},{&quot;Invitation_ID&quot;:214702,&quot;Area_ID&quot;:12,&quot;Sort&quot;:12,&quot;Size_Height&quot;:223.0,&quot;Size_Width&quot;:800.0,&quot;Regist_User_ID&quot;:null,&quot;Regist_DateTime&quot;:null,&quot;Regist_IP&quot;:null,&quot;Update_User_ID&quot;:null,&quot;Update_DateTime&quot;:null,&quot;Update_IP&quot;:null,&quot;Color&quot;:null,&quot;Area&quot;:null,&quot;Invitation&quot;:null},{&quot;Invitation_ID&quot;:214702,&quot;Area_ID&quot;:14,&quot;Sort&quot;:14,&quot;Size_Height&quot;:230.0,&quot;Size_Width&quot;:800.0,&quot;Regist_User_ID&quot;:null,&quot;Regist_DateTime&quot;:null,&quot;Regist_IP&quot;:null,&quot;Update_User_ID&quot;:null,&quot;Update_DateTime&quot;:null,&quot;Update_IP&quot;:null,&quot;Color&quot;:&quot;#F7F8F9&quot;,&quot;Area&quot;:null,&quot;Invitation&quot;:null}]</div>
+        <div style="display:none" id="ETCs">[{&quot;Invitation_ID&quot;:214702,&quot;Sort&quot;:1,&quot;Etc_Title&quot;:&quot;버스 안내&quot;,&quot;Information_Content&quot;:&quot;[KT 남수원지사 하차]\n81, 82-1, 300-1, 300(좌석)\n[권선초등학교 하차]\n51, 92, 92-1&quot;,&quot;Invitation&quot;:null},{&quot;Invitation_ID&quot;:214702,&quot;Sort&quot;:2,&quot;Etc_Title&quot;:&quot;자가용 안내&quot;,&quot;Information_Content&quot;:&quot;1주차장 : KT 남수원지사 (웨딩홀)\n2주차장 : 한화생명 주차장\n3주차장 : 수원시청 공영주차장\n* 주차요원의 안내를 받으세요&quot;,&quot;Invitation&quot;:null},{&quot;Invitation_ID&quot;:214702,&quot;Sort&quot;:3,&quot;Etc_Title&quot;:&quot;지하철&quot;,&quot;Information_Content&quot;:&quot;분당선 수원시청역 5번출구\n■ 셔틀버스 운행 : 5번출구 앞 승차 / 예식 당일 5~7분 간격 운행\n■ 도보 이용 시 : 5번출구에서 직진 후 쌍용자동차 앞 사거리 횡단보도를 건너 좌측. 약 10분 소요&quot;,&quot;Invitation&quot;:null},{&quot;Invitation_ID&quot;:214702,&quot;Sort&quot;:4,&quot;Etc_Title&quot;:&quot;전세버스&quot;,&quot;Information_Content&quot;:&quot;예식당일 오전 9시 30분 / 대구 두류공원 예술회관 앞 출발 / 70바 6219&quot;,&quot;Invitation&quot;:null}]</div>
+        <div style="display:none" id="Accounts">[{&quot;Invitation_ID&quot;:214702,&quot;Sort&quot;:1,&quot;Send_Target_Code&quot;:&quot;ATC004&quot;,&quot;Send_Name&quot;:&quot;신부&quot;,&quot;Bank_Code&quot;:&quot;81&quot;,&quot;Bank_Name&quot;:&quot;하나은행&quot;,&quot;Account_Number&quot;:&quot;&quot;,&quot;Account_Holder&quot;:&quot;김민경&quot;},{&quot;Invitation_ID&quot;:214702,&quot;Sort&quot;:2,&quot;Send_Target_Code&quot;:&quot;ATC003&quot;,&quot;Send_Name&quot;:&quot;신랑&quot;,&quot;Bank_Code&quot;:&quot;81&quot;,&quot;Bank_Name&quot;:&quot;하나은행&quot;,&quot;Account_Number&quot;:&quot;620218577076&quot;,&quot;Account_Holder&quot;:&quot;이종훈&quot;},{&quot;Invitation_ID&quot;:214702,&quot;Sort&quot;:3,&quot;Send_Target_Code&quot;:&quot;ATC001&quot;,&quot;Send_Name&quot;:&quot;신랑혼주&quot;,&quot;Bank_Code&quot;:&quot;31&quot;,&quot;Bank_Name&quot;:&quot;대구은행&quot;,&quot;Account_Number&quot;:&quot;&quot;,&quot;Account_Holder&quot;:&quot;서복희&quot;},{&quot;Invitation_ID&quot;:214702,&quot;Sort&quot;:4,&quot;Send_Target_Code&quot;:&quot;ATC002&quot;,&quot;Send_Name&quot;:&quot;신부혼주&quot;,&quot;Bank_Code&quot;:null,&quot;Bank_Name&quot;:&quot;&quot;,&quot;Account_Number&quot;:&quot;&quot;,&quot;Account_Holder&quot;:&quot;김외규&quot;}]</div>
+        <div style="display:none" id="GroomAccounts">[{&quot;Invitation_ID&quot;:214702,&quot;Sort&quot;:1,&quot;Category&quot;:1,&quot;Send_Target_Code&quot;:&quot;ATC003&quot;,&quot;Send_Name&quot;:&quot;신랑&quot;,&quot;Bank_Code&quot;:&quot;81&quot;,&quot;Bank_Name&quot;:&quot;하나은행&quot;,&quot;Account_Number&quot;:&quot;620218577076&quot;,&quot;Account_Holder&quot;:&quot;이종훈&quot;},{&quot;Invitation_ID&quot;:214702,&quot;Sort&quot;:2,&quot;Category&quot;:1,&quot;Send_Target_Code&quot;:&quot;ATC001&quot;,&quot;Send_Name&quot;:&quot;신랑혼주&quot;,&quot;Bank_Code&quot;:&quot;31&quot;,&quot;Bank_Name&quot;:&quot;대구은행&quot;,&quot;Account_Number&quot;:&quot;09407172278001&quot;,&quot;Account_Holder&quot;:&quot;서복희&quot;}]</div>
+        <div style="display:none" id="BrideAccounts">[{&quot;Invitation_ID&quot;:214702,&quot;Sort&quot;:1,&quot;Category&quot;:2,&quot;Send_Target_Code&quot;:&quot;ATC004&quot;,&quot;Send_Name&quot;:&quot;신부&quot;,&quot;Bank_Code&quot;:&quot;81&quot;,&quot;Bank_Name&quot;:&quot;하나은행&quot;,&quot;Account_Number&quot;:&quot;22891028144707&quot;,&quot;Account_Holder&quot;:&quot;김민경&quot;},{&quot;Invitation_ID&quot;:214702,&quot;Sort&quot;:2,&quot;Category&quot;:2,&quot;Send_Target_Code&quot;:&quot;ATC002&quot;,&quot;Send_Name&quot;:&quot;신부혼주&quot;,&quot;Bank_Code&quot;:&quot;11&quot;,&quot;Bank_Name&quot;:&quot;NH농협&quot;,&quot;Account_Number&quot;:&quot;농협  3560623  590733&quot;,&quot;Account_Holder&quot;:&quot;김외규&quot;}]</div>
+        <div style="display:none" id="BabyInfos"></div>
+
+        <input type="hidden" id="Product_Category_Code" value="PCC01" />
+
+        <input type="hidden" id="Invitation_Title" match="초대장제목" value="이종훈♡김민경 결혼식에 초대합니다.">
+        <input type="hidden" id="Groom_Name" match="신랑명" value="이종훈" />
+        <input type="hidden" id="Bride_Name" match="신부명" value="김민경" />
+        <input type="hidden" id="Greetings" match="인사말" value="서로가 마주보며 다져온 사랑을&#xA;이제 함께 한 곳을  바라보며&#xA;걸어갈 수 있는 큰 사랑으로 키우고자 합니다.&#xA;저희 두 사람이 사랑의 이름으로&#xA;지켜나갈 수 있게 앞날을&#xA;축복해 주시면 감사하겠습니다." />
+        <input type="hidden" id="WeddingDate" match="예식일자" value="2022-11-20" />
+        <input type="hidden" id="WeddingYY" match="예식년" value="2022" />
+        <input type="hidden" id="WeddingMM" match="예식월" value="11" />
+        <input type="hidden" id="WeddingDD" match="예식일" value="20" />
+        <input type="hidden" id="WeddingWeek" value="일" />
+        <input type="hidden" id="WeddingWeekName" match="예식요일" value="SUN" />
+        <input type="hidden" id="Time_Type_Code" value="오후" />
+        <input type="hidden" id="Time_Type_Name" match="시간구분" value="PM" />
+        <input type="hidden" id="WeddingHour" match="예식시" value="3" />
+        <input type="hidden" id="WeddingMin" match="예식분" value="00" />
+        <input type="hidden" id="WeddingHHmm" value="300" />
+        <input type="hidden" id="Weddinghall_Name" match="예식장이름" value="루클라비">
+        <input type="hidden" id="WeddingHallDetail" match="예식홀" value="10층 라비에벨 홀">
+        <input type="hidden" id="Weddinghall_Address" match="예식장주소" value="경기 수원시 권선구 경수대로 401">
+        <input type="hidden" id="invitationId" value="214702" />
+        <input type="hidden" id="lat" value="37.2626085" />
+        <input type="hidden" id="lot" value="127.0242271" />
+        <input type="hidden" id="loc" value="루클라비" />
+        <input type="hidden" id="address" value="경기 수원시 권선구 경수대로 401" />
+        <input type="hidden" id="outlineType" value="OTC01" />
+        <input type="hidden" id="outlineImage" />
+        <input type="hidden" id="serviceHost" value="https://service.barunsonmcard.com" />
+        <input type="hidden" id="Delegate_Image_URL" value="/upload/invitation/220916/214702/966f84ae-ad67-4c54-add5-a5beaf5d0856.jpg" />
+        <input type="hidden" id="Invitation_Video_Type_Code" value="VTC01" />
+        <input type="hidden" id="Invitation_Video_Use_YN" value="N" />
+        <input type="hidden" id="Invitation_Video_URL" />
+        <input type="hidden" id="GuestBook_Use_YN" value="Y" />
+        <input type="hidden" id="Gallery_Use_YN" value="Y" />
+        <input type="hidden" id="Parents_Information_Use_YN" value="N" />
+        <input type="hidden" id="MoneyGift_Remit_Use_YN" value="N" />
+        <input type="hidden" id="MoneyAccount_Remit_Use_YN" value="N" />
+        <input type="hidden" id="MoneyAccount_Div_Use_YN" value="Y" />
+        <input type="hidden" id="Flower_gift_YN" value="C" />
+        <input type="hidden" id="Groom_Phone" value="01096914336">
+        <input type="hidden" id="Groom_Global_Phone_YN" value="N">
+        <input type="hidden" id="Groom_Global_Phone_Number" value="&#x2B;82">
+        <input type="hidden" id="Bride_Phone" value="01064344115">
+        <input type="hidden" id="Bride_Global_Phone_YN" value="N">
+        <input type="hidden" id="Bride_Global_Phone_Number" value="&#x2B;82">
+        <input type="hidden" id="Groom_Parents1_Name">
+        <input type="hidden" id="Groom_Parents1_Global_Phone_Number_YN" value="N">
+        <input type="hidden" id="Groom_Parents1_Global_Phone_Number" value="&#x2B;82">
+        <input type="hidden" id="Groom_Parents1_Phone">
+        <input type="hidden" id="Groom_Parents2_Name">
+        <input type="hidden" id="Groom_Parents2_Global_Phone_Number_YN" value="N">
+        <input type="hidden" id="Groom_Parents2_Global_Phone_Number" value="&#x2B;82">
+        <input type="hidden" id="Groom_Parents2_Phone">
+        <input type="hidden" id="Bride_Parents1_Name">
+        <input type="hidden" id="Bride_Parents1_Global_Phone_Number_YN" value="N">
+        <input type="hidden" id="Bride_Parents1_Global_Phone_Number" value="&#x2B;82">
+        <input type="hidden" id="Bride_Parents1_Phone">
+        <input type="hidden" id="Bride_Parents2_Name">
+        <input type="hidden" id="Bride_Parents2_Global_Phone_Number_YN" value="N">
+        <input type="hidden" id="Bride_Parents2_Global_Phone_Number" value="&#x2B;82">
+        <input type="hidden" id="Bride_Parents2_Phone">
+
+        <input type="hidden" id="User_ID" value="fungyu66">
+        <input type="hidden" id="Etc_Information_Use_YN" value="Y" />
+        <input type="hidden" id="WeddingWeek_Eng_YN" value="Y">
+        <input type="hidden" id="Time_Type_Eng_YN" value="Y">
+        <input type="hidden" id="CDN" value="https://resources.barunsonmcard.com">
+
+
+        <input type="hidden" id="DetailNewLineYN" value="N">
+
+    </div>
+    <div class="loader_mcard">
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="/dist/js/photoswipe.js"></script>
+    <script type="text/javascript" src="/dist/js/photoswipe-ui-default.min.js"></script>
+    <script type="text/javascript" src="/dist/js/photoswipe-gallery.js"></script>
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script src="/js/jquery.mCustomScrollbar.js"></script>
+
+    <script>
+        var Invitation_Display_YN = ""
+        var InvitationId = "214702";
+
+        var host = "https://barunsonmcard.com";
+
+        $.ajax({
+            type: "POST",
+            url: "/Member/Invitation_Display_Chk/" + InvitationId,
+            async: false,
+            success: function (result) {
+
+                Invitation_Display_YN = result;
+            }
+        });
+
+        var isEmpty = function (val) {
+            if (val === "" || val === null || val === undefined
+                || (val !== null && typeof val === "object" && !Object.keys(val).length)
+            ) {
+                return true
+            } else {
+                return false
+            }
+
+        };
+
+        if (document.referrer.toLocaleUpperCase().indexOf("/ADMIN/") < 0) { //어드민/주문관리에서 유입된 경우가 아니고
+
+            if (Invitation_Display_YN == "N" || isEmpty(Invitation_Display_YN)) {
+                alert("이용기간이 만료되었거나 비공개된 초대장입니다");
+                location.replace("/");
+            }
+        }
+
+        $(document).ready(function () {
+            jQuery('html > head > title').text("바른손카드 모바일청첩장");
+            if (InvitationId == "195827") {
+               // jQuery(".sns_list").hide();
+            }
+            //alert($("#addressDetail").text());
+        });
+
+        setTimeout(function () {
+            $(".loader_mcard").hide();
+        }, 2000);
+    </script>
+    <script type="text/javascript" src="/js/mcard/mcard.js?v=LUf-r7AqPuJh3yLC73InfDDVdbxX5bsfbslSEQv9sY4"></script>
+    <script type="text/javascript" src="/js/sns.js?v=GAKOG9TKq_fZLD07HHDBWbPXHrbzotsL4_9od2QBjlw"></script>
+
+
+</body>
+</html>
